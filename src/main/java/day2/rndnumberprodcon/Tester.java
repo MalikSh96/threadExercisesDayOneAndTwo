@@ -51,8 +51,6 @@ public class Tester {
         
         for(Future<Integer> future : list) 
         {
-            System.out.println("Future return value " + future);
-            
             System.out.println("Future: " + future.get());
         }
         //shut down the executor service now
